@@ -21,3 +21,6 @@ All categories that have items in them will be displayed below the menu in the f
 
 ![Category](screenshot1.jpg)
 When viewing a category
+
+![Category](screenshot2.jpg)
+Adding a portfolio item
