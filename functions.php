@@ -104,19 +104,4 @@ function get_the_custom_excerpt($length){
 	}
 	
 
-// To REMOVE unused dashboard widgets you can uncomment the next line and customize /includes/remove.php
-// require_once('includes/remove.php');
-// Adds meta box for disableSidebar (according to http://www.mimoymima.com/2010/03/lab/disable-sidebar/)
-require_once('includes/meta/sidebar_metabox.php');
-
-/*
-COMMENT FUNCTIONS:
-we usually use LiveFyre, Disqus, or Intense Debate for comments
-also jetpack has some kind of commenting plugin that we haven't tried yet
-if you're making a site that requires a totally custom comments area,
-check this tutorial which has a bunch of functions to customize comments:
-http://themeshaper.com/2009/07/01/wordpress-theme-comments-template-tutorial/
-*/
-
-
 ?>
