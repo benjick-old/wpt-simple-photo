@@ -16,3 +16,8 @@ Start by creating some Portfolio Categories (People, Sports, etc).
 Create a new Portfolio item, pick a title and a featured image. Don't forget to assign it to a category.
 
 All categories that have items in them will be displayed below the menu in the frontend.
+
+### Screenshots ###
+
+![Category](screenshot1.jpg)
+When viewing a category
