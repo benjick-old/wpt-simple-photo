@@ -137,7 +137,8 @@ Author URI: http://maxmalm.se
 	
 	/*--- HEADER ---*/
 
-        #noncontent { position: fixed; top: 75px; left: 25px; width: 300px; padding: 10px; background: #000; background: rgba(0,0,0,0.8); z-index: 1 }
+        #noncontent { position: fixed; top: 75px; left: 25px; width: 300px; padding: 10px; background: #000; background: rgba(0,0,0,0.8); z-index: 1; color: #fff; }
+        #noncontent cred { font-size: 75%; }
 
         .notportfolio { width: 100%; padding-left: 350px; margin-top: 75px; padding-bottom: 150px; }
         .isportfolio { padding-left: 350px; }
@@ -188,17 +189,10 @@ Author URI: http://maxmalm.se
 
 		#sidebar-footer ul { list-style-position: inside; }
 
-
-	/*--- FOOTER ---*/
-
-		#footer { display:none; clear: both; text-align: right; position: fixed; bottom: 0; left: 0; right: 0;}
-			
-		/* Credit */
-		#footer #site-credits a { letter-spacing: 1px; }
-
     /*--- PORTFOLIO ---*/
 
-        .portfolioimage { position: relative; width: 100%; max-height:100%; }
+        .portfolioimage { position: relative;  }
+        .portfolioimage img { }
         .portfolioimage h2 { position: absolute; bottom: 25px; left: 0; width: 100%; background: #000; background: rgba(0,0,0,0.7); font-size: 24px; }
         .portfolioimage h2 a { text-decoration: none; color: #fff; }
         .portfolioimage h2 span { color: white; font: bold 24px/45px Helvetica, Sans-Serif; letter-spacing: -1px; }

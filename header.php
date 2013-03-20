@@ -83,4 +83,8 @@
 
         <?php dynamic_sidebar('sidebar-menu'); ?>
 
+        <div class="cred">
+            This is <a href="https://github.com/benjick/wpt-simple-photo">Simple Photo</a> based on <a id="cred-mine" href="http://html5.mimoymima.com" title="Build your Wordpress themes faster - HTML5 WordPress Shell">HTML5 WordPress Shell</a>
+        </div>
+
     </div>

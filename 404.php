@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!--Put your sidebars in wherever necessary-->
-
+<div class="notportfolio">
 <!--BEGIN: Content-->
 <div id="content" role="main">
 
@@ -15,5 +15,6 @@
 
 </div>
 <!--END: Content-->
-	
+</div>
+
 <?php get_footer(); ?>

@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div class="notportfolio">
 <!--BEGIN: sidebar~main-->
 <?php // to disable this sidebar on a page by page basis just add a custom field to your page or post of disableSidebarMain = true
 $disableSidebarMain = get_post_meta($post->ID, 'disableSidebarMain', $single = true);
@@ -73,5 +73,5 @@ if ($disableSidebarMain !== 'true'): ?>
 
 </div>
 <!--END: Content-->
-
+</div>
 <?php get_footer(); ?>
